@@ -1,0 +1,26 @@
+body{
+  background-color: #212428;
+  color: white;
+  margin: 0;
+}
+
+
+
+.nav-menu ul {
+  height: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+
+.nav-menu ul li{
+  margin: 40px 40px;
+  color: #c4cfde;
+  transition: transform 0.5s ease;
+}
+.nav-menu ul li:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+  color: #ff014f;
+}
